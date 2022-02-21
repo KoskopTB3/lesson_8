@@ -1,0 +1,435 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Taviraj:500&display=swap);
+/* ================================================================ */
+
+/* ================================================================ */
+
+body {
+	font-family: "Lato", sans-serif;
+	/* background-color: rgba(218, 218, 218, 0.445); */
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.background {
+	background-color: rgba(218, 218, 218, 0.445);
+}
+.main-page {
+	max-width: 500px;
+	background: url("../img/pattern.png") 0 0 / 40px 40px repeat;
+	margin: 0px auto;
+	box-shadow: 0 0 20px rgba(85, 86, 87, 0.396);
+	padding: 50px 0;
+}
+
+/* ==============================PAGE-1================================ */
+
+.page-1 {
+	margin: 0 auto 20px;
+}
+
+.card-content {
+}
+.card-text {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
+	text-align: center;
+	max-width: 170px;
+	height: 250px;
+	border: 10px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	background: url("../img/Cloud-1.svg") 0 bottom / 100% auto no-repeat,
+		url("../img/Starship.svg") center / 30px auto no-repeat,
+		linear-gradient(180deg, rgba(49, 30, 145, 1) 0%, rgba(0, 212, 255, 1) 100%);
+	font-size: 10px;
+	padding: 150px 20px 0 20px;
+	line-height: 1.5;
+	color: darkgray;
+}
+
+.card-text:hover {
+	background: url("../img/Cloud-1.svg") 0 bottom / 100% auto no-repeat,
+		url("../img/Starship_2.svg") center 10px / 40px auto no-repeat,
+		linear-gradient(180deg, rgba(49, 30, 145, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.button {
+	margin: 30px 0 0 0;
+	font-weight: 900;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	box-shadow: 0 3px 0 rgb(117, 117, 117);
+	line-height: 2;
+	display: inline-block;
+	background: rgba(23, 55, 76, 1);
+	padding: 0 30px 0 30px;
+	border-radius: 10px;
+	color: white;
+}
+.button:hover {
+	margin: 31px 0 0 0;
+	box-shadow: 0 2px 0 rgb(117, 117, 117);
+	background: rgb(28, 100, 148);
+}
+
+.button:active {
+	margin: 32px 0 0 0;
+	box-shadow: inset 1px 1px 3px rgb(61, 61, 61), 0px 1px 0px rgb(61, 61, 61);
+	background: rgb(17, 129, 13);
+}
+
+/* ==============================PAGE-2=========================== */
+
+.page-2 {
+	max-width: 300px;
+	height: 250px;
+	background: rgb(196, 196, 196) url("../img/Starship_2.svg") 245px center / 105px auto no-repeat;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	margin: 50px auto;
+	border-radius: 10px;
+}
+
+.card-content-2 ul {
+}
+
+.list li {
+	margin: 0 0 10px 0;
+}
+
+.list li:last-child {
+	margin: 0;
+}
+
+.list {
+	font-size: 11px;
+	line-height: 1.6;
+	padding: 30px 0 0 30px;
+	font-style: italic;
+	color: blue;
+	max-height: 170px;
+	overflow: auto;
+}
+
+.link-1:hover {
+	display: inline-block;
+	text-decoration: underline;
+	background-color: #fff;
+	padding: 0 10px;
+}
+
+.link-1:visited {
+	color: brown;
+}
+
+.link-1::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 40%;
+	margin: 1px 0px 0px -30px;
+	background-color: rgb(126, 126, 126);
+}
+
+.button-position {
+	margin: 0 0 0 70px;
+}
+
+.button-2 {
+	text-align: center;
+	margin: 30px 0px 0 0px;
+	font-weight: 900;
+	font-size: 10px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	box-shadow: 0 3px 0 rgb(117, 117, 117);
+	line-height: 2;
+	display: inline-block;
+	background: rgba(23, 55, 76, 1);
+	padding: 0 30px 0;
+	border-radius: 10px;
+	color: white;
+}
+.button-2:hover {
+	margin: 31px 0 0 0;
+	box-shadow: 0 2px 0 rgb(117, 117, 117);
+}
+
+.button-2:active {
+	margin: 32px 0 0 0;
+	box-shadow: inset 1px 1px 3px rgb(117, 117, 117), 0px 1px 0px rgb(61, 61, 61);
+	background: rgb(17, 129, 13);
+}
+
+/* ==============================PAGE-3=========================== */
+
+.page-3 {
+	max-width: 300px;
+	height: 550px;
+	background: rgb(196, 196, 196);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	margin: 20px auto 40px;
+	border-radius: 10px;
+}
+
+h1 {
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 2px solid rgb(0, 0, 0);
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+	font-style: italic;
+	line-height: 2;
+	margin: 0 0 10px 0;
+}
+
+h1::before {
+	content: "";
+	display: inline-block;
+	height: 3px;
+	width: 30px;
+	margin: 0px 8px 7px 0px;
+	background-color: rgb(17, 20, 190);
+}
+
+h1::after {
+	content: "";
+	display: inline-block;
+	height: 3px;
+	width: 30px;
+	margin: 0px 0px 7px 5px;
+	background-color: rgb(236, 10, 10);
+}
+
+.play-start {
+	width: 300px;
+	margin: 0 auto;
+	width: 30px;
+	height: 15px;
+	background-color: #fff;
+}
+
+.way-1 {
+	background-color: rgb(17, 20, 190);
+	width: 20px;
+	height: 40px;
+	margin: 0 auto;
+	visibility: hidden;
+}
+.play-start:hover + .way-1,
+.way-1:hover {
+	visibility: visible;
+}
+.way-2 {
+	background-color: rgb(17, 20, 190);
+	width: 130px;
+	height: 20px;
+	margin: 0 0 0 140px;
+	visibility: hidden;
+}
+.way-1:hover + .way-2,
+.way-2:hover {
+	visibility: visible;
+}
+.way-3 {
+	background-color: rgb(17, 20, 190);
+	width: 15px;
+	height: 100px;
+	margin: 0 0 0 255px;
+	visibility: hidden;
+}
+.way-2:hover + .way-3,
+.way-3:hover {
+	visibility: visible;
+}
+
+.way-4 {
+	background-color: rgb(17, 20, 190);
+	width: 150px;
+	height: 13px;
+	margin: 0 0 0 120px;
+	visibility: hidden;
+}
+.way-3:hover + .way-4,
+.way-4:hover {
+	visibility: visible;
+}
+.way-5 {
+	background-color: rgb(17, 20, 190);
+	width: 11px;
+	height: 100px;
+	margin: 0 0 0 120px;
+	visibility: hidden;
+}
+.way-4:hover + .way-5,
+.way-5:hover {
+	visibility: visible;
+}
+.way-6 {
+	background-color: rgb(17, 20, 190);
+	width: 100px;
+	height: 9px;
+	margin: 0 0 0 120px;
+	visibility: hidden;
+}
+.way-5:hover + .way-6,
+.way-6:hover {
+	visibility: visible;
+}
+.way-7 {
+	background-color: rgb(17, 20, 190);
+	width: 9px;
+	height: 50px;
+	margin: -50px 0 0 211px;
+	visibility: hidden;
+}
+.way-6:hover + .way-7,
+.way-7:hover {
+	visibility: visible;
+}
+.way-8 {
+	background-color: rgb(17, 20, 190);
+	width: 50px;
+	height: 8px;
+	margin: -50px 0 0 211px;
+	visibility: hidden;
+}
+.way-7:hover + .way-8,
+.way-8:hover {
+	visibility: visible;
+}
+.way-9 {
+	background-color: rgb(17, 20, 190);
+	width: 8px;
+	height: 150px;
+	margin: -8px 0 0 255px;
+	visibility: hidden;
+}
+.way-8:hover + .way-9,
+.way-9:hover {
+	visibility: visible;
+}
+.way-10 {
+	background-color: rgb(17, 20, 190);
+	width: 170px;
+	height: 7px;
+	margin: -7px 0 0 90px;
+	visibility: hidden;
+}
+.way-9:hover + .way-10,
+.way-10:hover {
+	visibility: visible;
+}
+.way-11 {
+	background-color: rgb(255, 0, 0);
+	width: 7px;
+	height: 7px;
+	margin: -7px 0 0 84px;
+	visibility: hidden;
+}
+.way-10:hover + .way-11,
+.way-11:hover {
+	visibility: visible;
+}
+
+.button-dz-1 {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	background: rgb(104, 170, 165);
+	line-height: 2;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+/* ==============================Figma HW=========================== */
+
+
+.who-we-are {
+	font-family: "lato", sans-serif;
+	color: rgba(66, 69, 81, 1);
+	max-width: 390px;
+	margin: 0 auto;
+}
+.container {
+}
+.subtittle {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px 0 8px;
+	line-height: 1.5;
+	color: rgba(30, 33, 44, 1);
+}
+.title {
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 1.3;
+	color: rgba(30, 33, 44, 1);
+	margin: 0 0 40px;
+}
+
+.list-item{
+	margin: 0 0 22px;
+}
+.list-item li{
+	line-height: 1.3;
+	padding: 0 0 0 32px;
+	margin: 0 0 12px 0;
+}
+
+.list-item li::before{
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url("../img/check.svg") 0 1px / 14.67px auto no-repeat;
+	min-height: 14.67px;
+	margin: 0 16px 0 -32px;
+	
+}
+.button-link {
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	text-align: center;
+	padding: 0 32px 0 32px;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 3.14;
+	color: rgba(255, 255, 255, 1);
+	margin: 0 0 50px;
+}
+
+
+.maple{
+	font-family: "Taviraj", serif;
+	font-weight: 500;
+	font-size: 36px;
+	letter-spacing: 2px;
+	color: black;
+}
+
+.maple:after{
+	content: "";
+	display: block;
+	margin: 10px 0 0;
+	width: 65px;
+	height: 2px;
+	background-color: rgb(27, 27, 27);
+}
